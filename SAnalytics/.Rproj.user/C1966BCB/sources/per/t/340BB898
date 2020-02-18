@@ -1,25 +1,25 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1582042041878.000,
+    "created" : 1582042181468.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
-    "id" : "D4236A46",
+    "hash" : "4116331488",
+    "id" : "340BB898",
     "lastKnownWriteTime" : 1582041729,
     "last_content_update" : 1582041729,
-    "path" : "~/Documents/GitHub/SAnalytics/SAnalytics/DESCRIPTION",
-    "project_path" : "DESCRIPTION",
+    "path" : "~/Documents/GitHub/SAnalytics/SAnalytics/NAMESPACE",
+    "project_path" : "NAMESPACE",
     "properties" : {
-        "cursorPosition" : "8,34",
+        "cursorPosition" : "1,0",
         "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 2,
+    "relative_order" : 3,
     "source_on_save" : false,
     "source_window" : "",
-    "type" : "dcf"
+    "type" : "r_namespace"
 }
