@@ -47,3 +47,5 @@ sgraph_histogram<-function(x,x.title,title,fillcolor,colcolor)
 
 }
 
+
+#devtools::document()
