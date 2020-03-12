@@ -24,7 +24,7 @@ sgraph_histogram<-function(x,x.title,title)
 
 #' @title exports a histogram with color options
 #'
-#' @description this function exports a histogram
+#' @description this function exports a histogram with color options
 #'
 #' @param symbol
 #'
