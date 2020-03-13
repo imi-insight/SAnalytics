@@ -12,7 +12,5 @@ sgraph_histogram<-function(x,x.title,y.title="",title,
         fill=I(fillcolor),
         col=I(colcolor),
         alpha=I(alpha))
-
 }
-
 #devtools::document()
