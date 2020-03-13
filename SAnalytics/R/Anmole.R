@@ -16,5 +16,4 @@ sgraph_histogram<-function(x,x.title,y.title="",title,
 
 }
 
-
 #devtools::document()
