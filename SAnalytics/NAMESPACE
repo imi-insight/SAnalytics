@@ -1,2 +1,4 @@
-
+exportPattern("^[[:alpha:]]+")
+export(stock_predict)
+export (hello)
 export(sgraph_histogram)
