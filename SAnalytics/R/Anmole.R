@@ -1,4 +1,3 @@
-
 sgraph_histogram<-function(x,x.title,y.title="",title,
                            fillcolor="blue",colcolor="white",
                            alpha=I(1),binwidth=10)
@@ -13,7 +12,5 @@ sgraph_histogram<-function(x,x.title,y.title="",title,
         fill=I(fillcolor),
         col=I(colcolor),
         alpha=I(alpha))
-
 }
-
 #devtools::document()
