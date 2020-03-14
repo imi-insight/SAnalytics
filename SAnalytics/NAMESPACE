@@ -1,6 +1,5 @@
-
 export(sgraph_histogram)
 export(sgraph_bar)
-export(sgraph_scatterplot)
+#export(sgraph_scatterplot)
 export(desc_summary)
 export(stransform_bestfit)

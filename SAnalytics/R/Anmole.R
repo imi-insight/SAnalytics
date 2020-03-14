@@ -1,3 +1,4 @@
+
 sgraph_histogram<-function(x,x.title,y.title="",title,
                            fillcolor="blue",colcolor="white",
                            alpha=I(1),binwidth=10)
@@ -89,8 +90,7 @@ stransform_bestfit<- function(dependent, independent, dataset)
   adj_rsquared[7]<-summary(m8)$adj.r.squared
   rsquared[7]<- summary(m8)$r.squared
 
-
   return(c(adj_r2=adj_rsquared,r2=rsquared))
 
-
 }
+
