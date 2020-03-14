@@ -49,7 +49,7 @@ Function created by Souvik Samanta
 }
 \examples{
 
-sgraph_bar(iris,"sepal.length","lightblue")
+sgraph_bar(iris,"sepal.Length","lightblue")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
