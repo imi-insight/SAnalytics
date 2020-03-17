@@ -10,7 +10,7 @@ split_tseries <- function(data,train.data.percent)
   return(c(train.data=train.data,test.data=test.data))
 }
 
-# split_tseries(iris,10)
+# split_tseries(iris,90)
 
 split_csection <- function(data,data.seed,train.data.percent)
 {
