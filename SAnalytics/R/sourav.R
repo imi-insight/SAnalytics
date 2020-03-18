@@ -1,15 +1,9 @@
-sgraph_scatterplot<-function(x,x.title,y.title="",title,
-                           binwidth=10)
+sgraph_piechart<-function(x,y)
 {
-  
-  ggplot2::plot(x,
-                 geom="scatter plot",
-                 main = title,
-                 binwidth=binwidth,
-                 ylab=y.title,
-                 xlab = x.title,
-                 fill=I(fillcolor),
-                 col=I(colcolor),
-                 alpha=I(alpha))
+  ggplot(x, aes(x = "", y = y, fill = y)) +
+    geom_bar(width = 1, stat = "identity", color = "white") +
+    coord_polar("y", start = 0)+
+    geom_text(aes(1, label = ""), color = "white")+
+    theme_void()
   
 }
